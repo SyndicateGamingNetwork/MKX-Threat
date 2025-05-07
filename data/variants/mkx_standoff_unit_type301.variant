@@ -1,0 +1,55 @@
+{
+    "displayName": "Type 301",
+    "fluxCapacitors": 30,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "mkx_standoff_unit",
+    "hullMods": [],
+    "variantId": "mkx_standoff_unit_type301",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "neoferric_quadcoil",
+                "WS 013": "neoferric_quadcoil"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "heavy_mass_driver",
+                "WS 010": "heavy_mass_driver"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 014": "unstable_fragment",
+                "WS 007": "unstable_fragment"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "seeker_fragment",
+                "WS 008": "seeker_fragment",
+                "WS 006": "seeker_fragment",
+                "WS 005": "seeker_fragment"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "light_mass_driver",
+                "WS 002": "light_mass_driver",
+                "WS 003": "light_mass_driver",
+                "WS 004": "light_mass_driver"
+            }
+        }
+    ]
+}

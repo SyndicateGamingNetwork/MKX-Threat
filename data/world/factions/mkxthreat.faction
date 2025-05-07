@@ -1,0 +1,195 @@
+{
+	"id":"mkxthreat",
+	
+	"color":[130,155,145,255],
+	"baseUIColor":[130,155,145,255],
+    "darkUIColor":[130, 150, 120,175],
+    "gridUIColor":[110, 130, 120,75],
+
+    "displayName":"Threat MKX",
+    "displayNameWithArticle":"The MKX",	
+
+    "displayNameLong":"Threat MKX Breakaway",
+    "displayNameLongWithArticle":"The Threat MKX Breakaway",
+    "personNamePrefixAOrAn":"a",
+    "displayNameIsOrAre":"is",
+
+    "logo":"graphics/factions/threat.png",
+    "crest":"graphics/factions/crest_threat.png",
+	
+	"internalComms":"mkxthreat_public",
+	
+    "shipNamePrefix":"MKX",
+	"showInIntelTab":true,
+	"shipNameSources":{
+		"THREAT":1
+	},
+	"names":{
+		"ai":1
+	},
+
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/threat.png"
+		],
+		"standard_female":[
+			"graphics/portraits/threat.png"
+		]
+	},
+
+	"knownShips":{
+		"tags":["mkx_threat_bp"
+		],
+		"hulls":[
+			"mkx_assault_unit",
+			"mkx_fabricator_unit",
+			"mkx_overseer_unit",
+			"mkx_shephard_unit",
+			"mkx_skirmish_unit",
+			"mkx_standoff_unit",
+			"mkx_wulf_unit",
+			"mkx_skipper_unit",
+			"mkx_monitor_unit",
+			"mkx_boffalo_unit",
+			"mkx_hammurhead_unit",
+			"mkx_atlus_unit",
+			"mkx_siegebreaker_unit"
+			
+		]
+	},
+
+
+	"knownWeapons":{
+		"tags":["standard", "threat"],
+		"weapons":[
+		]
+	},
+
+	"knownHullMods":{
+		"tags":["standard", "fragment", "base_bp"],
+		"hullMods":[
+					"advancedshieldemitter",
+        			"turretgyros",
+        			"armoredweapons",
+        			"augmentedengines",
+        			"autorepair",
+        			"converted_hangar",
+        			"eccm",
+        			"ecm",
+        			"expanded_deck_crew",
+        			"magazines",
+        			"missleracks",
+        			"extendedshieldemitter",
+        			"frontemitter",
+        			"frontshield",
+        			"hardenedshieldemitter",
+        			"heavyarmor",
+        			"insulatedengine",
+        			"targetingunit",
+        			"nav_relay",
+        			"adaptiveshields",
+        			"operations_center",
+        			"recovery_shuttles",
+        			"fluxbreakers",
+        			"stabilizedshieldemitter",
+        			"surveying_equipment",
+        			"hiressensors",
+        			"efficiency_overhaul",
+					"extendedautomation",
+					"fragment_swarm",
+					"secondary_fabricator",
+					"fragment_coordinator"
+		]
+	},
+
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":1,
+		"phaseShips":1,
+		
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":2,
+		
+		"shipSize":5,
+		
+		"aggression":2,
+		
+		"combatFreighterProbability":0,
+		"combatFreighterCombatUseFraction":1,
+		"combatFreighterCombatUseFractionWhenPriority":1,
+		"autofitRandomizeProbability":0.3,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"coordinated_maneuvers",
+			"crew_training",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation"
+		]
+	},
+
+    "illegalCommodities":[
+    ],
+
+    "custom":{
+        "offersCommissions":true,
+		"engageWhenEvenStrength":true,
+		"fightToTheLast":true,
+		"ignoreTradeWithEnemiesForReputation":true,
+		"allowsTransponderOffTrade":true,
+        "engagesInHostilities":true,
+        "buysAICores":true,
+        "AICoreValueMult":".2",
+        "AICoreRepMult":3,
+        "buysSurveyData":true,
+        "hostilityImpactOnGrowth":true,
+	    "caresAboutAtrocities":false,
+
+		"simulatorData":{
+		"showInSimulatorDevModeOnly":false,
+		"standardAICores":true,
+		"includeCivShipsWithFaction":true,
+		"noOfficers":true
+		},
+
+        "punitiveExpeditionData":{
+            "vsCompetitors":true,
+            "vsFreePort":false,
+            "canBombard":true,
+            "territorial":true
+        }
+    },
+
+    "fleetTypeNames":{
+        "trade":"Commere trader",
+        "tradeLiner":"Trader",
+        "tradeSmuggler":"Smuggler",
+        "smallTrader":"Resupply Convoy",
+
+        "patrolSmall":"First Strike",
+        "patrolMedium":"Second Strike",
+        "patrolLarge":"Third Strike",
+
+        "inspectionFleet":"Human Resourses",
+        "taskForce":"Invasion Fleet",
+
+		"scavengerSmall":"Recovery Squadron",
+		"scavengerMedium":"Requisition Fleet",
+		"scavengerHeavy":"Exploration Armada",
+
+        "foodReliefFleet":"Relief Fleet",
+
+		"mercScout":"Subsumed scouts",
+		"mercBountyHunter":"Threat Hunters",
+		"mercPrivateer":"Threat Instigators",
+		"mercPatrol":"Servicers",
+		"mercArmada":"Threat Vultures",
+
+		"battlestation":"Threat Fortress"
+    }
+}
+
+

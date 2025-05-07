@@ -1,0 +1,26 @@
+{
+        "defaultChannels":[
+                "mkxthreat_public"
+        ],
+        
+        "mikxthreat_public":{
+		"name":"MKX Threat",
+		"logo":"graphics/icons/intel/mkxthreat_public.png",
+		"icon":"graphics/icons/intel/mkxthreat_public.png",
+		"image":"graphics/factions/mkxthreat.png",
+		"sound":"ui_channel_news",
+		"faction":"mkxthreat",
+		"type":"News Report",
+		"shortType":"News"
+	},
+	"mkxthreat_internal":{
+		"name":"MKX threat",
+		"logo":"graphics/icons/intel/mkxthreat_internal.png",
+		"icon":"graphics/icons/intel/mkxthreat_internal.png",
+		"image":"graphics/factions/mkxthreat.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"mkxthreat",
+		"type":"Intelligence Report",
+		"shortType":"Intel"
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "displayName": "Type 10",
+    "fluxCapacitors": 5,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "mkx_skipper_unit",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mkx_skipper_unit_type10",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "voltaic_discharge"
+            }
+        }
+    ]
+}

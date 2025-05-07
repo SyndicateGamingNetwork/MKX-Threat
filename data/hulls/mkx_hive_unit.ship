@@ -1,0 +1,310 @@
+{
+    "hullName": "MKX Hive Unit",
+    "hullId": "mkx_hive_unit",
+    "hullSize": "CRUISER",
+    "style": "THREAT",
+    "spriteName": "graphics/ships/threat/threat_hive.png",
+    "height": 280,
+    "width": 212,
+    "center": [
+        106, 151
+    ],
+    "collisionRadius": 185,
+    "coversColor": "",
+    "shieldCenter": [
+        -5, 0
+    ],
+    "shieldRadius": 175,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "threat_hullmod",
+        "fragment_swarm"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 120,
+            "locations": [
+                     -23,       44
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 240,
+            "locations": [
+                     -23,      -43
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      89,       64
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      89,       22
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      89,      -64
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 120,
+            "locations": [
+                      31,       79
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 240,
+            "locations": [
+                      31,      -79
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      89,      -22
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 5,
+            "angle": -90,
+            "locations": [
+                     -71,      -40
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 5,
+            "angle": -90,
+            "locations": [
+                     -92,      -43
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 5,
+            "angle": 90,
+            "locations": [
+                     -71,       41
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 5,
+            "angle": 90,
+            "locations": [
+                     -92,       44
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -147, 37
+            ],
+            "length": 96,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -149, 30
+            ],
+            "length": 128,
+            "width": 24,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -147, 22
+            ],
+            "length": 96,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -147, -22
+            ],
+            "length": 96,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -149, -29
+            ],
+            "length": 128,
+            "width": 24,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -147, -37
+            ],
+            "length": 96,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -8, 75
+            ],
+            "length": 96,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 128,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -8, -75
+            ],
+            "length": 96,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 128,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                45, 95
+            ],
+            "length": 96,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 128,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                45, -95
+            ],
+            "length": 96,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 128,
+            "style": "THREAT"
+        }
+    ],
+    "bounds": [
+              94,       78,
+             105,        0,
+              94,      -79,
+              79,     -101,
+              48,      -98,
+        
+              48,      -90,
+              32,      -90,
+              22,      -79,
+              -4,      -78,
+              -4,      -69,
+        
+             -15,      -66,
+             -16,      -54,
+             -26,      -55,
+             -38,      -42,
+             -30,      -31,
+        
+             -98,      -47,
+            -105,      -41,
+            -142,      -46,
+            -144,      -14,
+            -118,      -12,
+        
+            -115,        1,
+            -117,       13,
+            -144,       14,
+            -143,       46,
+            -103,       41,
+        
+             -96,       46,
+             -32,       33,
+             -37,       44,
+             -25,       58,
+             -17,       52,
+        
+             -16,       66,
+              -4,       70,
+              -4,       80,
+              23,       79,
+              32,       91,
+        
+              47,       91,
+              47,       99,
+              77,      101
+    # 38 points total.
+    ]
+}

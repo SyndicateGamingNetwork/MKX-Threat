@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="bananaLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../bananaLib-20250415/jars/bananaLib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../bananaLib-20250415/jars/bananaLib.jar!/" />
+    </SOURCES>
+  </library>
+</component>

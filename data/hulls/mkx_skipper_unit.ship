@@ -1,0 +1,68 @@
+{
+    "hullName": "MKX Skipper Unit",
+    "hullId": "mkx_skipper_unit",
+    "hullSize": "FRIGATE",
+    "style": "THREAT",
+    "spriteName": "graphics/ships/mkx_skipper.png",
+    "height": 45,
+    "width": 46,
+    "center": [
+        23, 22.5
+    ],
+    "collisionRadius": 22.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 30.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "threat_hullmod",
+        "fragment_swarm",
+        "shielded_holds",
+        "insulatedengine"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                     9.5,      -11
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -23, -5
+            ],
+            "length": 10,
+            "width": 6,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -23, 5
+            ],
+            "length": 10,
+            "width": 6,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        }
+    ],
+    "bounds": [
+             -22,    -21.5,
+            22.5,    -17.5,
+            22.5,     17.5,
+             -22,     21.5
+    ]
+}

@@ -1,0 +1,14 @@
+{
+	"id":"player",
+
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/threat.png"
+		],
+		"standard_female":[
+			"graphics/portraits/threat.png"
+		]
+	}
+}
+
+

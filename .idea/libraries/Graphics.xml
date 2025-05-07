@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Graphics">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../zz GraphicsLib-1.10.2/jars/Graphics.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

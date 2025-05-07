@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bananaFactory">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../bananaFactory-20250416/jars/bananaFactory.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

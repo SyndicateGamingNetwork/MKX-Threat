@@ -1,0 +1,2 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Orbital Habitat (hidden),mkxthreathabitatcondition,,TRUE,kira.mkxthreat.campaign.econ.MkxthreatHabitatCondition,Hidden condition; does not need icon.,,

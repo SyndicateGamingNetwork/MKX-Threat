@@ -1,0 +1,47 @@
+{
+    "displayName": "Type 350",
+    "fluxCapacitors": 30,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "mkx_hive_unit",
+    "hullMods": [],
+    "variantId": "mkx_hive_unit_type350",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "swarm_launcher",
+                "WS 001": "swarm_launcher"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "unstable_fragment",
+                "WS 006": "unstable_fragment"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "seeker_fragment",
+                "WS 003": "seeker_fragment",
+                "WS 007": "seeker_fragment",
+                "WS 004": "seeker_fragment"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "kinetic_fragments",
+                "WS 010": "kinetic_fragments",
+                "WS 008": "kinetic_fragments",
+                "WS 009": "kinetic_fragments"
+            }
+        }
+    ]
+}

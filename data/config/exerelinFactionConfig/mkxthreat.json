@@ -1,0 +1,112 @@
+{
+    "playableFaction":true,
+	"startingFaction":true,
+	"freeStart":true,
+	"spawnAsFactionId":"mkxthreat",
+    "corvusCompatible":true,
+	"dropPrisoners":false,
+    "showIntelEvenIfDead":true,
+	"difficultyString":"hard",
+	"ngcTooltip":"MKX ACTIVATE",
+    "rebelFleetSuffix":"DEFABRICATE",
+    "directoryUseShortName":true,
+    "hostileToAll":true,
+    "startRelationships":{
+        "independent":-1.00,
+        "player":-1.00,
+        "scalartech":-1.00,
+        "pirates":-1.00,
+        "hegemony":-1.00,
+        "luddic_church":-1.00,
+        "luddic_path":-1.00,
+        "persean":-1.00,
+        "tritachyon":-1.00,
+        "sindrian_diktat":-1.00,
+        "diableavionics":-1.00, 
+        "magellan_protectorate": -1.00,
+		"sylphon":-1.00,
+		"tiandong":-1.00,
+        "blackrock_driveyards":-1.00,
+        "dassault_mikoyan":-1.00,
+        "aic":-1.00,
+		"brighton":-1.00,
+		"hmi":-1.00,
+		"interstellarimperium":-1.00,
+		"kadur_remnant":-1.00,
+		"al_ars":-1.00,
+		"ora":-1.00,
+		"shadow_industry":-1.00,
+        "ironshell":-1.00,
+        "apex_design":-1.00,
+        "star_federation":-1.00,
+        "tahlan_legioinfernalis":-1.00,
+        "xlu":-1.00,
+        "blade_breakers":-1.00,
+        "SCY":-1.00,
+        "approlight":-1.00,
+        "bladeofconviction":-1.00,
+        "mayasura":-1.00,
+        "mvs": -1.00,
+        "legionarry":-1.00,
+        "batavia":-1.00,
+        "rebelrats":-1.00,
+        "unsc":-1.00,
+        "uaf":-1.00,
+        "default": -1.00
+    },
+    "allowAgentActions":true,
+    "allowPrisonerActions":true,
+	"freeMarket":true,
+    "morality":"evil",
+    "diplomacyTraits":["foreverwar", "temperamental", "envious", "monstrous"],
+    "alignments":{
+            "corporate":-1,
+            "technocratic":1,
+            "militarist":1,
+            "diplomatic":-1,
+            "ideological":-1
+    },
+    "isPirateNeutral":false,
+    "specialForcesMaxFleets":0,
+    "vengeanceLevelNames":["Retaliation", "Purge", "Obliteration"],
+
+    "vengeanceFleetNames":["Retaliation", "Purge", "Obliteration"],
+
+    "vengeanceFleetNamesSingle":["a Retaliation Fleet", "a Purge Force", "an Obliteration Force"],
+    
+    "startShipsCombatLarge":[
+        ["mkx_fabricator_unit_type450", "mkx_shephard_unit_type110", "mkx_wulf_unit_type120", "mkx_skipper_unit_type10"]
+    ],
+
+    "startShipsCarrierSmall":[
+       ["mkx_hive_unit_type350", "mkx_shephard_unit_type110", "mkx_shephard_unit_type110", "mkx_skipper_unit_type10"]
+    ],
+
+    "startShipsSuper":[
+       ["mkx_wulf_unit_type120", "mkx_skipper_unit_type10"]
+    ],
+    
+    "startSpecialItems":[
+        [["mkx_threat_bp",""]]
+    ],
+	
+   "industrySeeds":[
+ 		{"id":"militarybase", "mult":1},
+        {"id":"orbitalworks", "mult":1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1}
+    ],
+
+    "bonusSeeds":[
+        {"id":"nanoforge_pristine", "count":1},
+        {"id":"population_upsize", "count":1},	
+        {"id":"aiCore_station", "count":2, "mult":0.2},
+        {"id":"aiCore_military", "mult":0.4},
+        {"id":"aiCore_heavyindustry", "count":1},
+        {"id":"aiCore_any", "mult":1.5}
+    ],
+
+    "defenceStations":[
+        {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"]}
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "kira_mkxthreat",
+  "name": "MKX Threat",
+  "author": "Kira Inata",
+  "utility": false,
+  "version": { "major": "0", "minor": "1", "patch": "0" },
+  "description": "MKX threat.",
+  "gameVersion": "0.98",
+  "jars": [ "jars/mkxthreat.jar" ],
+  "modPlugin": "kira.mkxthreat.MkxthreatModPlugin",
+  "dependencies": [
+    {
+        "id": "lw_lazylib",
+        "name": "LazyLib"
+     },
+     {
+         "id": "MagicLib",
+         "name": "MagicLib"
+     },
+     {
+         "id": "shaderLib",
+         "name": "GraphicsLib"
+     }
+  ]
+}

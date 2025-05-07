@@ -1,0 +1,269 @@
+{
+    "hullName": "MKX Siegebreaker Unit",
+    "hullId": "mkx_siegebreaker_unit",
+    "hullSize": "CRUISER",
+    "style": "THREAT",
+    "spriteName": "graphics/ships/mkx_siegebreaker.png",
+    "height": 294,
+    "width": 242,
+    "center": [
+        121, 147
+    ],
+    "collisionRadius": 158,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 180,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "threat_hullmod",
+        "fragment_swarm",
+        "rugged"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 250,
+            "angle": 0,
+            "locations": [
+                      24,        0
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 90,
+            "locations": [
+                     -54,      103
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 270,
+            "locations": [
+                     -54,     -103
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 90,
+            "locations": [
+                     -74,       99
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 270,
+            "locations": [
+                     -74,      -99
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 90,
+            "locations": [
+                     -94,       95
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": -90,
+            "locations": [
+                     -94,      -95
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 137,
+            "angle": 64,
+            "locations": [
+                      45,       53
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 137,
+            "angle": 296,
+            "locations": [
+                      45,      -53
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 201,
+            "angle": 64,
+            "locations": [
+                      83,       55
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 201,
+            "angle": 296,
+            "locations": [
+                      83,      -55
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 212,
+            "angle": 22.5,
+            "locations": [
+                      98,       40
+            ]
+        },
+        {
+            "id": "WS 012",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 212,
+            "angle": 337.5,
+            "locations": [
+                      98,      -40
+            ]
+        },
+        {
+            "id": "WS 013",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 132,
+            "angle": 0,
+            "locations": [
+                      94,        0
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -151, -68
+            ],
+            "length": 30.5,
+            "width": 14,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -151, 68
+            ],
+            "length": 30.5,
+            "width": 14,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -147.5, -47.5
+            ],
+            "length": 30.5,
+            "width": 14,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -147.5, 47.5
+            ],
+            "length": 30.5,
+            "width": 14,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -131.5, -27
+            ],
+            "length": 30.5,
+            "width": 14,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -131.5, 27
+            ],
+            "length": 30.5,
+            "width": 14,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        }
+    ],
+    "bounds": [
+          -122.5,     -8.5,
+          -147.5,      -42,
+            -148,    -74.5,
+          -103.5,   -104.5,
+           -29.5,     -122,
+        
+            47.5,     -113,
+            49.5,      -76,
+           134.5,    -54.5,
+             147,      -21,
+             147,       21,
+        
+           134.5,     54.5,
+            49.5,       76,
+            47.5,      113,
+           -29.5,      122,
+          -103.5,    104.5,
+        
+            -148,     74.5,
+          -147.5,       42,
+          -122.5,      8.5
+    # 18 points total.
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "hullName": "MKX Shephard",
+    "hullId": "mkx_shephard_unit",
+    "hullSize": "FRIGATE",
+    "style": "THREAT",
+    "spriteName": "graphics/ships/mkx_shephard.png",
+    "height": 96,
+    "width": 79,
+    "center": [
+        43, 48
+    ],
+    "collisionRadius": 47,
+    "coversColor": "",
+    "shieldCenter": [
+        -3.5, 1
+    ],
+    "shieldRadius": 60,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "threat_hullmod",
+        "fragment_swarm",
+        "fragment_coordinator"
+    ],
+    "builtInWings": [
+        "attack_swarm_wing"
+    ],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 153,
+            "angle": 253.5,
+            "locations": [
+                       3,      -23
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 160,
+            "angle": 105,
+            "locations": [
+                    -1.5,     17.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "HARDPOINT",
+            "arc": 244,
+            "angle": 320,
+            "locations": [
+                      36,      -28
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      18,     21.5,
+                      43,       -4
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -49.5, -20.5
+            ],
+            "length": 32.5,
+            "width": 13,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -49, 23.5
+            ],
+            "length": 32.5,
+            "width": 13,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -47.5, 13
+            ],
+            "length": 15,
+            "width": 9,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -48, -10
+            ],
+            "length": 15,
+            "width": 9,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        }
+    ],
+    "bounds": [
+            47.5,       -4,
+              33,       43,
+             -13,       43,
+             -48,       28,
+             -48,      -29,
+        
+           -12.5,      -36,
+            39.5,    -34.5
+    ]
+}

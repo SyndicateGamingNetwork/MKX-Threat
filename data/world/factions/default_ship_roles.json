@@ -1,0 +1,75 @@
+{
+	"combatSmallForSmallFleet":{
+		
+		"mkx_skipper_unit_type10":1,
+
+		"mkx_skirmish_unit_type100":7,
+		"mkx_skirmish_unit_type101":8,
+
+		"mkx_shephard_unit_type110":5,
+
+		"mkx_wulf_unit_type120":1,
+		
+		"mkx_monitor_unit_type130":7
+		
+	},
+
+	"combatSmall":{
+		
+		"mkx_skirmish_unit_type100":5,
+		"mkx_skirmish_unit_type101":9,
+
+		"mkx_shephard_unit_type110":3,
+
+		"mkx_wulf_unit_type120":1,
+		
+		"mkx_monitor_unit_type130":4,
+		
+		"mkx_skipper_unit_type10":1
+		
+	},
+
+	"combatMedium":{
+		
+		"mkx_overseer_unit_type250":5,
+		
+		"mkx_hammurhead_unit_type240":8
+		
+	},
+
+	"combatLarge":{
+	
+		"mkx_hive_unit_type350":5,
+
+		"mkx_standoff_unit_type300":5,
+		"mkx_standoff_unit_type301":6,
+		"mkx_standoff_unit_type302":2,
+		
+		"mkx_siegebreaker_unit_type310":6
+		
+	},
+	"combatCapital":{
+		
+		"mkx_fabricator_unit_type450":10
+		
+	},
+
+	"freighterMedium":{
+		
+		"mkx_boffalo_unit_type88":7
+		
+	},
+	
+	"freighterLarge":{
+		
+		"mkx_atlus_unit_type550":7
+		
+	},
+
+	"personnelSmall":{
+		
+		"mkx_skipper_unit_type10":7
+		
+	}
+
+}

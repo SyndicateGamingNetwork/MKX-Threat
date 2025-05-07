@@ -1,0 +1,146 @@
+{
+    "hullName": "MKX Monitor",
+    "hullId": "mkx_monitor_unit",
+    "hullSize": "FRIGATE",
+    "style": "THREAT",
+    "spriteName": "graphics/ships/mkx_monitor.png",
+    "height": 92,
+    "width": 126,
+    "center": [
+        63, 46
+    ],
+    "collisionRadius": 45.5,
+    "coversColor": "",
+    "shieldCenter": [
+        -14, 0.5
+    ],
+    "shieldRadius": 76.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "threat_hullmod",
+        "fragment_swarm",
+        "fluxshunt"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 231,
+            "angle": 342,
+            "locations": [
+                     9.5,      -29
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 231,
+            "angle": 18,
+            "locations": [
+                     9.5,       29
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 223,
+            "angle": 288.5,
+            "locations": [
+                      -5,      -44
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 223,
+            "angle": 71.5,
+            "locations": [
+                      -5,       44
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -48, -17
+            ],
+            "length": 16.5,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -48, 17
+            ],
+            "length": 16.5,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -35, 55
+            ],
+            "length": 16.5,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -35, -55
+            ],
+            "length": 16.5,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -40, -38
+            ],
+            "length": 15.5,
+            "width": 10,
+            "angle": 193.5,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -40, 38
+            ],
+            "length": 15.5,
+            "width": 10,
+            "angle": 166.5,
+            "contrailSize": 12,
+            "style": "THREAT"
+        }
+    ],
+    "bounds": [
+             -46,    -28.5,
+           -35.5,      -58,
+           -11.5,      -62,
+            45.5,    -14.5,
+            45.5,     14.5,
+        
+           -11.5,       62,
+           -35.5,       58,
+             -46,     28.5
+    ]
+}

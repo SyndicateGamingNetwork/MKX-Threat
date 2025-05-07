@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mkxthreat">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mkxthreat.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

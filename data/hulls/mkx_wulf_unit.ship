@@ -1,0 +1,146 @@
+{
+    "hullName": "MKX Wulf",
+    "hullId": "mkx_wulf_unit",
+    "hullSize": "FRIGATE",
+    "style": "THREAT",
+    "spriteName": "graphics/ships/mkx_wulf.png",
+    "height": 89,
+    "width": 66,
+    "center": [
+        33, 44.5
+    ],
+    "collisionRadius": 46,
+    "coversColor": "",
+    "shieldCenter": [
+        -2.5, 0
+    ],
+    "shieldRadius": 60,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "threat_hullmod",
+        "safetyoverrides",
+        "fragment_swarm"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 228,
+            "angle": 227.5,
+            "locations": [
+                   -13.5,      -13
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 228,
+            "angle": 132.5,
+            "locations": [
+                   -13.5,       13
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 4,
+            "angle": 0,
+            "locations": [
+                    31.5,      -25
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 4,
+            "angle": 0,
+            "locations": [
+                    31.5,       25
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                    18.5,        0
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    35.5,        0
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -46.5, -21
+            ],
+            "length": 16.5,
+            "width": 8,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -46.5, 21
+            ],
+            "length": 16.5,
+            "width": 8,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -44.5, -11.5
+            ],
+            "length": 16.5,
+            "width": 8,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -44.5, 11.5
+            ],
+            "length": 16.5,
+            "width": 8,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        }
+    ],
+    "bounds": [
+           -44.5,      -33,
+            34.5,    -31.5,
+            44.5,    -11.5,
+            44.5,     11.5,
+            34.5,     31.5,
+        
+           -44.5,       33
+    ]
+}

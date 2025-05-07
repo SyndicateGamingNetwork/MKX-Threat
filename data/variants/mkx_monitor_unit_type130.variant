@@ -1,0 +1,22 @@
+{
+    "displayName": "Type 130",
+    "fluxCapacitors": 3,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "mkx_monitor_unit",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mkx_monitor_unit_type130",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "voltaic_cannon",
+                "WS 000": "voltaic_cannon",
+                "WS 003": "seeker_fragment",
+                "WS 002": "seeker_fragment"
+            }
+        }
+    ]
+}

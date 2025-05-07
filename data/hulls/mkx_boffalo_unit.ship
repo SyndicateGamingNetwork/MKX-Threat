@@ -1,0 +1,50 @@
+{
+    "hullName": "MKX Boffalo Unit",
+    "hullId": "mkx_boffalo_unit",
+    "hullSize": "DESTROYER",
+    "style": "THREAT",
+    "spriteName": "graphics/ships/mkx_boffalo.png",
+    "height": 165,
+    "width": 123,
+    "center": [
+        49.5, 94
+    ],
+    "collisionRadius": 53.5,
+    "coversColor": "",
+    "shieldCenter": [
+        -4, 1.5
+    ],
+    "shieldRadius": 85,
+    "viewOffset": 0,
+    "builtInMods": [
+        "threat_hullmod",
+        "fragment_swarm"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                      14,      1.5
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+             -72,    -29.5,
+             -58,    -49.5,
+              38,    -42.5,
+              71,       -9,
+              71,        9,
+        
+              38,     42.5,
+             -58,     49.5,
+             -72,     29.5
+    ]
+}

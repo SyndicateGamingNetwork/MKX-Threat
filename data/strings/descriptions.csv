@@ -1,0 +1,59 @@
+id,type,text1,text2,text3,text4,notes
+,,,,,,
+#Hulls,,,,,,
+,,,,,,
+mkx_shephard_unit,SHIP,"Closest match found to archive entry for ""Shepherd""-class frigate, 82.14% confidence. Querying database... DOMAIN INFOSEC VIOLATION THRESHOLD WARNING ALERT
+// datastream resetting… This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+mkx_skirmish_unit,SHIP,"Closest match found to archive entry for ""Iklwa""-class frigate, 54.38% confidence. Querying database... ""Agile and, once Armada doctrine matured to the new conditions of the Aquila Brigands' Rebellion, the ubiquitous Iklwa formed the- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING ALERT
+// datastream resetting...
+
+-costly embarrassment at Van Maanen's Star was only the proverbial last rod before criticality. Public outrage at all levels led to the opening of investigation into senior- ERROR // -shall not back down, we shall never withdraw. From the Belt of Orion to the Polaris Frontier, from- FATAL ACCESS ERROR // 
+
+This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+mkx_overseer_unit,SHIP,"Closest match found to archive entry for ""Fulgurite""-class frontier support cruiser, 53.03% confidence. Querying database... ""A standout of Orion Shipyards design in the post-'Emerald Age' exodus, this frontier-rated utility platform featured a spinal-mount microwave emitter modulated for orbit-to- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
+// datastream resetting...
+
+-and she said ""Let the forges bloom in our Human Domain; so be crowned in the wealth and glory of a thousand stars!"" Although the quote is attributed to- ERROR // -the Terran Core to the Sadr Region, our battlegroups stand ready to protect our way of life, our very existence!"" FATAL ACCESS ERROR //
+
+This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+mkx_assault_unit,SHIP,"Closest match found to archive entry for ""Erebid""-class destroyer (recategorized), 43.87% confidence. Querying database... ""Armada leadership, most of whom escaped direct prosecution via the 'Grey Wave' which saw nearly four hundred senior officers resign fro- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
+// datastream resetting...
+
+-of the Interstellar Quality and Design Assurance Reforms - a series of acts passed over an energetic dozen cycles by the representative body of the Human Domain and only so-called by later historians - which build the legal basis for sweeping enforcement of fabrication rights management (henceforth- FATAL ACCESS ERROR //
+
+This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+mkx_hive_unit,SHIP,"IDENTIFICATION ERROR: Target matches no known class of ship in the Domain registry or historical reference. Submit data for temporary entry? Processing. ERROR // DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
+// retry?
+ Processing. ERROR // DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
+// retry?
+ Processing. ERROR // DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
+// process failed.
+
+IMMEDIATELY contact DOMAIN INFOSEC to review compliance with Domain Information Security Standards.",,,,
+mkx_standoff_unit,SHIP,"Closest match found to archive entry for ""Kardakes""-class hull, 32.11% confidence. Querying database... ""Firstly intended to replace the Hathoda-class orbital siege-capable heavy ballistic weapons platform, then considered a capital-class warship in its own right before the 4th Domain Armada Revised Schema reclassification order, the Kardakes was first deployed to battle conditions during the retaking of the Eridani Insurrec- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
+// datastream resetting...
+
+-aking technology of 'signatures' embedded at the nanochemical level by the nanoforge itself with only minimal effects on overall structural in- FATAL ACCESS ERROR // 
+
+This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+mkx_fabricator_unit,SHIP,"Closest match found to archive entry for ""Ilmari""-class mobile fabricator hull, 60.33% confidence. Querying... ""Despite the megadeath incident at Hipparcos during the 3rd cycle of the 204th assembly, this author argues that it was an act of human error bordering on malfeasance rather than automation which accounts for- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
+// datastream resetting... 
+
+-ide frontier manufacturing base to leapfrog development in systems newly added to the Gate Network, particu- FATAL ACCESS ERROR //
+
+This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+#Planets,,,,,,
+Hel,CUSTOM,A planet that breathes threat fragments. Clearly this planet is in the middle of being devoured for every last bit of material.,,"Seen from close orbit, the ragged biosphere of Valjean looks even mangier than the orbital photos on file. For all that Valjean once held enormous promise of easy wealth and bountiful harvests, itÕs a planet with no future. Now, the only thing Valjean exports regularly is people - as engine wipers, hired guns, and refugees; no job is too dirty in exchange for guaranteed passage offworld.",,
+Helia,CUSTOM,"A green brown mass of threat fragments float lazily aroud this star, slowly eating it away.",,"From close orbit, the surface of this world is even more unsettling. Flickers of radiation seethe across vast plains of twisted slag.",,
+,,,,,,
+#Stations,,,,,,
+mkxthreat_beacon,CUSTOM,This trashed beacon seems to have a few [[THREAT]] fragments floating around it keeping it in place. Getting any closer is ill advised.,,,,
+mkxthreat_station,CUSTOM,An automated station that ebs and flows with millions of fragments. These fragments seem to be collecting materials from other locations to here. Ships can just be seen through the ebbing mass that are in the middle of being created. [[WARNING]] Getting near this station may just well be a death sentence,,,,
+mkxthreat_threat_miner,CUSTOM,"An automated station that ebs and flows with millions of fragments collecting up any material, asteroid and ships alike. Getting near this station is severely ill advised.",,,,
+,,,,,,
+#Factions,,,,,,
+mkxthreat,FACTION,A seemingly advanced offshoot of the [[THREAT]] these fabricators seem to make a more permanent presence out in the abyss.,,,,

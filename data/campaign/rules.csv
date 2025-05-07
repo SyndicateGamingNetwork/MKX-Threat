@@ -1,0 +1,53 @@
+id,trigger,conditions,script,text,options,notes
+,,,,,,
+#Beacon Dialog,,,,,,
+beaconOpenDialogmkxthreatbeacon,OpenInteractionDialog,"$tag:mkxthreat_beacon
+$istl_mkxthreatwarn","ShowDefaultVisual
+SetShortcut beaconLeave ""ESCAPE""","This autonomous warning beacon emits a buzzing noise as if all the fragments are interfering with whatever the intended message use to be.""",beaconLeave:Leave,
+,,,,,,
+#Greetings and commission dialogue,,,,,,
+Greeting mkxthreatFriendly,OpenCommLink,"$faction.id == mkthreat
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""GREETINGS.""
+OR
+The screen flickers, and $personName 's visual unit is completely distorted just a flash of an image here and there.",,
+GreetingmkxthreatHostileWeaker,OpenCommLink,"$faction.id == mkthreat
+$entity.isHostile
+$entity.relativeStrength <0","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""DEFABRICATE YOURSELF.""",,
+GreetingmkxthreatHostileWeakerDefiant,OpenCommLink,"$faction.id == mkthreat
+$entity.isHostile
+$entity.relativeStrength <0
+$entity.weakerThanPlayerbutHolding",$ignorePlayerCommRequests = true 1,"
+The channel snaps off abruptly.",,
+GreetingmkxthreatHostileStronger,OpenCommLink,"$faction.id == mkthreat
+$entity.isHostile
+$entity.relativeStrength >=0",$ignorePlayerCommRequests = true 1,"""DEFABRICATE YOURSELF.""",,
+GreetingmkxthreatNeutral,OpenCommLink,"$faction.id == mkthreat
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""FABRICATION STANDING BY.""",,
+,,,,,,
+CMSNTextRejectHostile_mkxthreat,CMSNTextRejectHostile,$faction.id == mkthreat,,"""DEFABRICATE YOURSELF""",,
+CMSNTextHasOther_mkxthreat,CMSNTextHasOther,$faction.id == mkthreat,,"""DEFABRICATE YOURSELF""",,
+CMSNTextUnsuited_mkxthreat,CMSNTextUnsuited,$faction.id == mkthreat,,"""DEFABRICATE YOURSELF""",,
+CMSNTextSuitedPart1_mkxthreat,CMSNTextSuitedPart1,$faction.id == mkthreat,,"""FABRICATION",,
+CMSNTextSuitedPart2_mkxthreat,CMSNTextSuitedPart2,$faction.id == mkthreat,,"""DEFABRICATE""",,
+CMSNTextWelcomePart1_mkxthreat,CMSNTextWelcomePart1,$faction.id == mkthreat,,"""GO AND DEFABRICATE""",,
+CMSNTextWelcomePart2_mkxthreat,CMSNTextWelcomePart2,$faction.id == mkthreat,,"""GO AND DEFABRICATE""",,
+CMSNTextChangeMind_mkxthreat,CMSNTextChangeMind,$faction.id == mkthreat,,"""DEFABRICATE YOURSELF""",,
+CMSNResignAskToConfirm_mkxthreat,CMSNResignAskToConfirm,$faction.id == mkthreat,,"""DEFABRICATION REQUIRED""",,
+CMSNResignConfirmed_mkxthreat,CMSNResignConfirmed,$faction.id == mkthreat,,"""DEFABRICATE YOURSELF""",,
+CMSNResignCancelled_mkxthreat,CMSNResignCancelled,$faction.id == mkthreat,,"""GO AND DEFABRICATE""",,
+,,,,,,
+#Market text,,,,,,
+flavorTextMarketmkxthreatPeremohy,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == mkxthreat
+$market.id == mkxthreat_planet_hel","AddText ""A small interface port opens ready to accept trade"" textGrayColor",,,
+,,,,,,
+#Bar descriptions,,,,,,
+bar_descmkxthreat,BarPrintDesc,$faction.id == mkxthreat,ShowImageVisual space_bar,Menus pop up in your visual proccessor giving you access to the station,,
+,,,,,,
+#AI Core dialogue,,,,,,
+aiCores_turnInOptionSelmkxthreathel,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == mkxthreat
+$market.id == mkxthreat_planet_hel",FireAll PopulateCoresTurnInOptions,MORE TO ASSIMILATE,,

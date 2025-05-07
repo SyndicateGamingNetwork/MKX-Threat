@@ -1,0 +1,259 @@
+{
+    "hullName": "MKX Assault Unit",
+    "hullId": "mkx_assault_unit",
+    "hullSize": "DESTROYER",
+    "style": "THREAT",
+    "spriteName": "graphics/ships/threat/threat_assault_unit.png",
+    "height": 154,
+    "width": 160,
+    "center": [
+        80, 66
+    ],
+    "collisionRadius": 130,
+    "coversColor": "",
+    "shieldCenter": [
+        11, 1
+    ],
+    "shieldRadius": 120,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "threat_hullmod",
+        "fragment_swarm"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 001",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      50,       21
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      50,      -21
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      77,       40
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      77,      -40
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 215,
+            "angle": 45,
+            "locations": [
+                      20,       55
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 215,
+            "angle": -45,
+            "locations": [
+                      19,      -55
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 30,
+            "locations": [
+                      51,       44
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": -30,
+            "locations": [
+                      51,      -44
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 0,
+            "locations": [
+                      55,        0
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -61, 26
+            ],
+            "length": 75,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 80,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -61, 20
+            ],
+            "length": 65,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 60,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -61, 33
+            ],
+            "length": 55,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 80,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -61, -32
+            ],
+            "length": 55,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 80,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -61, -20
+            ],
+            "length": 65,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 80,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -61, -26
+            ],
+            "length": 75,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 80,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -11, 67
+            ],
+            "length": 90,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 128,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -11, 63
+            ],
+            "length": 75,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 128,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -5, -63
+            ],
+            "length": 75,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 128,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -8, -69
+            ],
+            "length": 90,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 128,
+            "style": "THREAT"
+        }
+    ],
+    "bounds": [
+              46,       62,
+              58,       59,
+              60,       47,
+              80,       44,
+              80,      -44,
+        
+              60,      -45,
+              57,      -58,
+              44,      -61,
+              40,      -76,
+              -2,      -72,
+        
+              -8,      -26,
+             -26,      -27,
+             -26,      -40,
+             -54,      -39,
+             -61,      -20,
+        
+             -31,        1,
+             -59,       20,
+             -54,       41,
+             -26,       41,
+             -26,       25,
+        
+             -10,       25,
+               1,       70,
+              41,       76
+    # 23 points total.
+    ]
+}

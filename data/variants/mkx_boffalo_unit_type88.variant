@@ -1,0 +1,18 @@
+{
+    "displayName": "Type 88",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "mkx_boffalo_unit",
+    "hullMods": [],
+    "variantId": "mkx_boffalo_unit_type88",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "voltaic_discharge"
+            }
+        }
+    ]
+}

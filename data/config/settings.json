@@ -1,0 +1,42 @@
+{
+	
+	"adminSalaryTier4":40000,
+	"designTypeColors":{
+		"MKXThreat":[130,155,145,255]
+	},
+	"ruleCommandPackages":[
+		"data.campaign.rulecmd"
+	],
+
+	"graphics": {
+		"blueprint_packages":{
+			"mkxthreat_package":"graphics/icons/cargo/package_mkxthreat.png",
+			"mkxthreat_blueprint":"graphics/icons/cargo/blueprint_mkxthreat.png"
+		},
+		"industry":{
+			"mkxthreat_shield_texture":"graphics/planets/mkxthreat_shield_texture.png"
+		},
+		"campaignEntities":{
+			"mkxthreat_beacon":"graphics/stations/mkxthreat_beacon.png",
+			"mkxthreat_beacon_glow":"graphics/stations/mkxthreat_beaconglow.png",
+			"mkxthreat_threat_miner":"graphics/stations/mkxthreat_threat_miner.png",
+			"mkxthreat_threat_miner_glow":"graphics/stations/mkxthreat_threat_minerglow.png"
+		},
+		"terrain":{
+			"mkxthreat_nebula_threat":"graphics/terrain/mkxthreat_nebula_threat.png",
+			"mkxthreat_nebula_threat_glow":"graphics/terrain/mkxthreat_nebula_threat_glow.png",
+			"mkxthreat_nebula_threat_map":"graphics/terrain/mkxthreat_nebula_threat_map.png"
+		},
+		"clouds": {
+			"helia": "graphics/planets/threat_cloud.png",
+			"hel": "graphics/planets/threat_cloud.png"
+		},
+		"planets":{
+			"helia": "graphics/planets/threat_star.png",
+			"hel": "graphics/planets/threat_planet.png"
+		},
+		"hab_glows":{
+			"hel_glow":"graphics/planets/threat_glow_map.png"
+		}
+	}
+}

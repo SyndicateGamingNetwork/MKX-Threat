@@ -1,0 +1,212 @@
+{
+    "hullName": "MKX Hammurhead Unit",
+    "hullId": "mkx_hammurhead_unit",
+    "hullSize": "DESTROYER",
+    "style": "THREAT",
+    "spriteName": "graphics/ships/mkx_hammer.png",
+    "height": 167,
+    "width": 98,
+    "center": [
+        49, 83.5
+    ],
+    "collisionRadius": 83,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 118.5,
+    "viewOffset": 0,
+    "builtInMods": [
+		"automated",
+        "threat_hullmod",
+        "fragment_swarm"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 10,
+            "angle": 0,
+            "locations": [
+                    70.5,      -39
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 10,
+            "angle": 0,
+            "locations": [
+                    70.5,       39
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 10,
+            "angle": 0,
+            "locations": [
+                      73,      -22
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 10,
+            "angle": 0,
+            "locations": [
+                      73,       22
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 195,
+            "angle": 307.5,
+            "locations": [
+                    47.5,      -18
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 195,
+            "angle": 52.5,
+            "locations": [
+                    47.5,       18
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 10,
+            "angle": 270,
+            "locations": [
+                    -8.5,      -41
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 10,
+            "angle": 90,
+            "locations": [
+                    -8.5,       41
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 10,
+            "angle": 270,
+            "locations": [
+                   -29.5,      -44
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 10,
+            "angle": 90,
+            "locations": [
+                   -29.5,       44
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -82.5, 41
+            ],
+            "length": 31.5,
+            "width": 6,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -82.5, -41
+            ],
+            "length": 31.5,
+            "width": 6,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -86, 31.5
+            ],
+            "length": 28,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -86, -31.5
+            ],
+            "length": 28,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -83, 15
+            ],
+            "length": 28.5,
+            "width": 15,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -83, -15
+            ],
+            "length": 28.5,
+            "width": 15,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        }
+    ],
+    "bounds": [
+             -82,      -46,
+             -29,      -48,
+              24,    -38.5,
+              74,      -46,
+              82,      0.5,
+        
+              74,       46,
+              24,     38.5,
+             -29,       48,
+             -82,       46
+    ]
+}

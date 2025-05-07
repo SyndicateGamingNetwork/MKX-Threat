@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="baNanoforge">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../baNanoforge-20250415/jars/baNanoforge.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

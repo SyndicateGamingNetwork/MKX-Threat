@@ -1,0 +1,236 @@
+{
+    "hullName": "MKX Overseer Unit",
+    "hullId": "mkx_overseer_unit",
+    "hullSize": "DESTROYER",
+    "style": "THREAT",
+    "spriteName": "graphics/ships/threat/overseer.png",
+    "height": 160,
+    "width": 148,
+    "center": [
+        74, 74
+    ],
+    "collisionRadius": 110,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 110,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "threat_hullmod",
+        "fragment_swarm"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 120,
+            "locations": [
+                     -18,       53
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 60,
+            "locations": [
+                      19,       55
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": -60,
+            "locations": [
+                      19,      -55
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 240,
+            "locations": [
+                     -19,      -53
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 0,
+            "locations": [
+                      31,        0
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 0,
+            "locations": [
+                      34,       40
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 0,
+            "locations": [
+                      34,      -40
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "MEDIUM",
+            "type": "SYSTEM",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                     -28,        0
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                     -16,       34
+            ]
+        },
+        {
+            "id": "WS 012",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                     -18,      -35
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -57, 49
+            ],
+            "length": 64,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -58, -49
+            ],
+            "length": 64,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -69, 23
+            ],
+            "length": 32,
+            "width": 8,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -56, 55
+            ],
+            "length": 32,
+            "width": 8,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -69, -23
+            ],
+            "length": 32,
+            "width": 8,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -57, -55
+            ],
+            "length": 32,
+            "width": 8,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -70, 17
+            ],
+            "length": 64,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -70, -16
+            ],
+            "length": 64,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "THREAT"
+        }
+    ],
+    "bounds": [
+              45,       56,
+              66,       40,
+              43,        0,
+              65,      -40,
+              46,      -55,
+        
+               2,      -67,
+             -42,      -58,
+             -57,      -25,
+             -59,       24,
+             -41,       57,
+        
+              -1,       67
+    # 11 points total.
+    ]
+}

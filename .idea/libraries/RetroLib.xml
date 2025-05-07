@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RetroLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../RetroLib-1.1.0/jars/RetroLib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
