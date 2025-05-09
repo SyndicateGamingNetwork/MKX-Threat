@@ -10,7 +10,7 @@
 	"ngcTooltip":"MKX ACTIVATE",
     "rebelFleetSuffix":"DEFABRICATE",
     "directoryUseShortName":true,
-    "hostileToAll":true,
+    "hostileToAll":3,
     "startRelationships":{
         "independent":-1.00,
         "player":-1.00,

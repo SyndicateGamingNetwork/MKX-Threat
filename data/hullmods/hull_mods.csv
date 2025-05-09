@@ -1,4 +1,3 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
-Extended Automation,extendedautomation,,,Threat,mkxthreat,,5000,TRUE,FALSE,,0,0,0,0,kira.mkxthreat.hullmods.Extendedautomation,Fully overhauls the automated systems.,Maximize that CR Rating,,graphics/icons/cargo/mkxthreatcore.png
 MKX Threat  Automation,mkxthreat_ccrew,,,Threat,mkxthreat,,5000,FALSE,TRUE,,0,0,0,0,kira.mkxthreat.hullmods.Mkxthreat_ccrew,MKX Boosts a ships automated systems allowing for easier control of any ship increasing its combat readiness.,Boosts CR Rating,,graphics/icons/cargo/mkxthreatcccore.png
 #MKX Threat Hull,mkx_threat_hullmod,,,Threat,mkxthreat,,5000,FALSE,TRUE,,0,0,0,0,kira.mkxthreat.hullmods.MkxthreatHullMod,Hidden hullmod for managing the special properties of Threat ships. Description created in script.,,,graphics/hullmods/the_threat.png

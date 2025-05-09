@@ -3,7 +3,6 @@ package kira.mkxthreat.scripts.world.systems;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
-import com.fs.starfarer.api.impl.campaign.WarningBeaconEntityPlugin;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.intel.deciv.DecivTracker;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
@@ -13,15 +12,10 @@ import com.fs.starfarer.api.util.Misc;
 import kira.mkxthreat.campaign.econ.MkxthreatHabitatCondition;
 import kira.mkxthreat.campaign.econ.industries.MkxIndustries;
 import kira.mkxthreat.campaign.submarkets.Mkxthreathab;
-import kira.mkxthreat.ids.MkxthreatStrings;
 
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
-
-import static kira.mkxthreat.campaign.ids.Mkxthreat_People.X_MK;
-import static kira.mkxthreat.campaign.ids.Mkxthreat_People.getPerson;
-import static kira.mkxthreat.ids.MkxthreatStrings.MKXTHREATBEACON;
 
 public class Helia {
             //Needed to get the star to not show on the map//
@@ -69,8 +63,6 @@ public class Helia {
 
     public void generate(SectorAPI sector) {
 
-        float planet1Dist = 4000f; //this is the distance the planet is from the star
-
         StarSystemAPI system = sector.createStarSystem("Helia");
 
         system.getLocation().set(-68300, -42600); //position of the system on the map
@@ -91,12 +83,10 @@ public class Helia {
         SectorEntityToken mkxthreatSensorArray = system.addCustomEntity("mkxthreat_sensor", "Domain Sensor Array", "sensor_array", "mkxthreat");
         SectorEntityToken mkxthreatNavArray = system.addCustomEntity("mkxthreat_nav", "Domain Navigation Array", "nav_buoy", "mkxthreat");
         SectorEntityToken mkxthreatRelay = system.addCustomEntity("mkxthreat_relay", "Domain Communication Array", "comm_relay", "mkxthreat");
-        SectorEntityToken mkxthreatbeacon = system.addCustomEntity("mkxthreatbeacon", "Fragmented Beacon", "mkxthreatbeacon", "mkxthreat");
 
         mkxthreatSensorArray.setCircularOrbitPointingDown(helia, 240.0F, 13000.0F, 260.0F);
         mkxthreatNavArray.setCircularOrbitPointingDown(helia, 240.0F, 8500.0F, 200.0F);
         mkxthreatRelay.setCircularOrbitPointingDown(helia, 185.0F, 2800.0F, 100.0F);
-        mkxthreatbeacon.setCircularOrbitPointingDown(helia, 120, 4500, 700);
 
         HyperspaceTerrainPlugin plugin = (HyperspaceTerrainPlugin) Misc.getHyperspaceTerrain().getPlugin(); //these lines clear the hyperspace clouds around the system
 
@@ -107,7 +97,7 @@ public class Helia {
         editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius, 0, 360f);
         editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius, 0, 360f, 0.25f);
 
-        PlanetAPI hel = system.addPlanet("Hel", helia, "Hel", "Hel", 900, 180f, planet1Dist, 220f);
+        PlanetAPI hel = system.addPlanet("Hel", helia, "Hel", "Hel", 900, 180f, 4000, 220f);
 
         hel.setCustomDescriptionId("Hel");
         hel.setInteractionImage("illustrations", "sentinel");
@@ -133,21 +123,20 @@ public class Helia {
                         Industries.MEGAPORT,
                         Industries.HEAVYBATTERIES,
                         Industries.WAYSTATION,
-                        Industries.STARFORTRESS_HIGH,
                         MkxIndustries.MKXTHREATPLANETARYSHIELD,
                         MkxIndustries.MKXTHREATMINING,
-                        MkxIndustries.MKXTHREATMILITARYBASE
+                        MkxIndustries.MKXTHREATMILITARYBASE,
+                        MkxIndustries.FRAGMENTSTATION
                 )),
 
                 new ArrayList<>(Arrays.asList(Submarkets.SUBMARKET_STORAGE, //markets
                         Submarkets.GENERIC_MILITARY,
-                        Submarkets.SUBMARKET_BLACK,
                         Submarkets.SUBMARKET_OPEN,
                         Mkxthreathab.MKXTHREATHAB
                 )),
                 0.15f
         );
-        helmarket.addIndustry("orbitalworks", new ArrayList(Arrays.asList("mkxthreatfragmenthub")));
+        helmarket.addIndustry("fragmentworks", new ArrayList(Arrays.asList("mkxthreatfragmenthub")));
         helmarket.getMemoryWithoutUpdate().set(DecivTracker.NO_DECIV_KEY, true);
     }
 }

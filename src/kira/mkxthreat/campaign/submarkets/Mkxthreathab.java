@@ -64,9 +64,14 @@ public class Mkxthreathab extends OpenMarketPlugin {
             addShips(market.getFactionId(),
                     0f, 0f, tankers, 0, 0f, 0f, null, 0f, FactionAPI.ShipPickMode.PRIORITY_THEN_ALL, null);
         }
-        cargo.addCommodity("alpha_core", MathUtils.getRandomNumberInRange(0, 2));
+        cargo.addCommodity("alpha_core", MathUtils.getRandomNumberInRange(0, 2)); //Adds anything from commodities
         cargo.addCommodity("beta_core", MathUtils.getRandomNumberInRange(2, 3));
         cargo.addCommodity("gamma_core", MathUtils.getRandomNumberInRange(3, 5));
+        cargo.addHullmods("fragment_swarm", 1); //Adds hullmods to a market
+        cargo.addHullmods("secondary_fabricator", 1);
+        cargo.addHullmods("fragment_coordinator", 1);
+        cargo.addSpecial(new SpecialItemData(Items.FRAGMENT_FABRICATOR, null), MathUtils.getRandomNumberInRange(1, 4)); //Adds special items to a market
+        cargo.addSpecial(new SpecialItemData(Items.THREAT_PROCESSING_UNIT, null), MathUtils.getRandomNumberInRange(1, 4));
         getCargo().sort();
     }
 
@@ -79,29 +84,6 @@ public class Mkxthreathab extends OpenMarketPlugin {
 
     public void init(SubmarketAPI submarket) {
         super.init(submarket);
-    }
-
-    @Override
-    public int getStockpileLimit(CommodityOnMarketAPI com) {
-
-        float limit = OpenMarketPlugin.getBaseStockpileLimit(com);
-
-        Random random = new Random(market.getId().hashCode() + submarket.getSpecId().hashCode() + Global.getSector().getClock().getMonth() * 170000);
-        limit *= 0.9f + 0.2f * random.nextFloat();
-
-        float sm = market.getStabilityValue() / 10f;
-        limit *= (0.25f + 0.75f * sm);
-
-        // more fuel and supplies
-        if (com.getId().equals(Commodities.SUPPLIES)) {
-            limit *= 2f;
-        } else if (com.isFuel()) {
-            limit *= 3f;
-        }
-
-        if (limit < 0) limit = 0;
-
-        return (int) limit;
     }
 
     @Override

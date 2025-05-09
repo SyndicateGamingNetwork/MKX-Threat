@@ -1,3 +1,12 @@
+[Mkx Threat Version 0.2.0] 05/09/2025
+==============================
+- NOT SAVE COMPATABLE
+- Added special items to hab vendor.
+- Fixed CR rating by having no automated point penalty on threat ships.
+- Cleaned up some more code and added some more annotations for what some of the current code does.
+- Added threat specific orbital works
+==============================
+
 [Mkx Threat Version 0.1.0] 05/06/2025
 ==============================
 - Initial release

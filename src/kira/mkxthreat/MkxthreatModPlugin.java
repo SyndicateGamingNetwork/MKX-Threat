@@ -27,6 +27,6 @@ public class MkxthreatModPlugin extends BaseModPlugin {
     public void onGameLoad(boolean newGame){
         super.onGameLoad(newGame);
         itemrepo.putInfoForSpecialItems();
-        itemrepo.setSpecialItemNewIndustries("mkxthreatfragmenthub", "heavyindustry,orbitalworks");
+        itemrepo.setSpecialItemNewIndustries("mkxthreatfragmenthub", "heavyindustry,orbitalworks,fragmentworks");
     }
 }

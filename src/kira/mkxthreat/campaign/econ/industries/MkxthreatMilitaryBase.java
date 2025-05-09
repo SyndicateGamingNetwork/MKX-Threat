@@ -46,9 +46,10 @@ public class MkxthreatMilitaryBase extends BaseIndustry implements RouteManager.
         supply(Commodities.CREW, size);
         supply(Commodities.MARINES, size);
 
-        demand(Commodities.SUPPLIES, size - 1);
-        demand(Commodities.FUEL, size - 1);
-        demand(Commodities.SHIPS, size - 1);
+        demand(Commodities.SUPPLIES, size - 2);
+        demand(Commodities.FUEL, size - 2);
+        demand(Commodities.SHIPS, size - 2);
+        demand(Commodities.HAND_WEAPONS, size - 2);
 
 
         Pair<String, Integer> deficit = getMaxDeficit(Commodities.HAND_WEAPONS);
