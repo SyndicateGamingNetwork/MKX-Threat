@@ -109,12 +109,6 @@ public class MkxthreatStrings {
         public static final String SNIPPETS_SPAWN_SYSTEM_DESC = Global.getSettings().getString("mkxthreatStarsystems", "snippets_spawnSystemDesc");
         public static final String SNIPPETS_SPAWN_SYSTEM_NO_SELECTED = Global.getSettings().getString("mkxthreatStarsystems", "snippets_spawnSystemNoSelected");
         public static final String MKXTHREAT = "mkxthreat";
-        public static final String MKXTHREATBEACON = "mkxthreatbeacon";
         public static final String MKXTHREATHAB = "mkxthreathab";
-        public static final String MKXTHREATFRAGMENTHUB = "mkxthreatfragmenthub";
-        public static final String MKX_THREAT_COMBAT = "mkx_threat_combat";
-        public static final String MKX_THREAT_HIVE = "mkx_threat_hive";
-        public static final String MKX_THREAT_OVERSEER = "mkx_threat_overseer";
-        public static final String MKX_THREAT_FABRICATOR = "mkx_threat_fabricator";
-
+        public static final String THREAT_CORE = "mkxthreatcore";
     }

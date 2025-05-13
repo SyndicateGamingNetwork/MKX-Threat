@@ -1,15 +1,19 @@
 id,type,text1,text2,text3,text4,notes
 ,,,,,,
 #Hulls,,,,,,
-,,,,,,
-mkx_shephard_unit,SHIP,"Closest match found to archive entry for ""Shepherd""-class frigate, 82.14% confidence. Querying database... DOMAIN INFOSEC VIOLATION THRESHOLD WARNING ALERT
-// datastream resetting… This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
 mkx_skirmish_unit,SHIP,"Closest match found to archive entry for ""Iklwa""-class frigate, 54.38% confidence. Querying database... ""Agile and, once Armada doctrine matured to the new conditions of the Aquila Brigands' Rebellion, the ubiquitous Iklwa formed the- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING ALERT
 // datastream resetting...
 
 -costly embarrassment at Van Maanen's Star was only the proverbial last rod before criticality. Public outrage at all levels led to the opening of investigation into senior- ERROR // -shall not back down, we shall never withdraw. From the Belt of Orion to the Polaris Frontier, from- FATAL ACCESS ERROR // 
 
 This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+mkx_shephard_unit,SHIP,"Closest match found to archive entry for ""Shepherd""-class frigate, 82.14% confidence. Querying database... DOMAIN INFOSEC VIOLATION THRESHOLD WARNING ALERT
+// datastream resetting… This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+mkx_skipper_unit,SHIP,"Closest match found to archive entry for [[ERROR]] . Querying database... DOMAIN INFOSEC VIOLATION THRESHOLD WARNING ALERT
+// datastream resetting… This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+mkx_wulf_unit,SHIP,"Closest match found to archive entry for ""Wolf""-class frigate, 72.28% confidence. Querying database... DOMAIN INFOSEC VIOLATION THRESHOLD WARNING ALERT
+// datastream resetting… This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+,,,,,,
 mkx_overseer_unit,SHIP,"Closest match found to archive entry for ""Fulgurite""-class frontier support cruiser, 53.03% confidence. Querying database... ""A standout of Orion Shipyards design in the post-'Emerald Age' exodus, this frontier-rated utility platform featured a spinal-mount microwave emitter modulated for orbit-to- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
 // datastream resetting...
 
@@ -22,6 +26,11 @@ mkx_assault_unit,SHIP,"Closest match found to archive entry for ""Erebid""-class
 -of the Interstellar Quality and Design Assurance Reforms - a series of acts passed over an energetic dozen cycles by the representative body of the Human Domain and only so-called by later historians - which build the legal basis for sweeping enforcement of fabrication rights management (henceforth- FATAL ACCESS ERROR //
 
 This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+mkx_boffalo_unit,SHIP,"Closest match found to archive entry for ""Buffalo""-class destroyer, 73.83% confidence. Querying database... DOMAIN INFOSEC VIOLATION THRESHOLD WARNING ALERT
+// datastream resetting… This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+mkx_hammurhead_unit,SHIP,"Closest match found to archive entry for ""Hammerhead""-class destroyer, 53.42% confidence. Querying database... DOMAIN INFOSEC VIOLATION THRESHOLD WARNING ALERT
+// datastream resetting… This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+,,,,,,
 mkx_hive_unit,SHIP,"IDENTIFICATION ERROR: Target matches no known class of ship in the Domain registry or historical reference. Submit data for temporary entry? Processing. ERROR // DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
 // retry?
  Processing. ERROR // DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
@@ -36,6 +45,11 @@ mkx_standoff_unit,SHIP,"Closest match found to archive entry for ""Kardakes""-cl
 -aking technology of 'signatures' embedded at the nanochemical level by the nanoforge itself with only minimal effects on overall structural in- FATAL ACCESS ERROR // 
 
 This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+mkx_siegebreaker_unit,SHIP,"Closest match found to archive entry for [[ERROR]] . Querying database... DOMAIN INFOSEC VIOLATION THRESHOLD WARNING ALERT
+// datastream resetting… This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+,,,,,,
+mkx_atlus_unit,SHIP,"Closest match found to archive entry for ""Atlas""-class capital, 89.25% confidence. Querying database... DOMAIN INFOSEC VIOLATION THRESHOLD WARNING ALERT
+// datastream resetting… This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
 mkx_fabricator_unit,SHIP,"Closest match found to archive entry for ""Ilmari""-class mobile fabricator hull, 60.33% confidence. Querying... ""Despite the megadeath incident at Hipparcos during the 3rd cycle of the 204th assembly, this author argues that it was an act of human error bordering on malfeasance rather than automation which accounts for- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
 // datastream resetting... 
 
@@ -43,8 +57,8 @@ mkx_fabricator_unit,SHIP,"Closest match found to archive entry for ""Ilmari""-cl
 
 This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
 ,,,,,,
-,,,,,,
-,,,,,,
+#Commodities,,,,,,
+threat_core,RESOURCE,"This core seems to have no regard for the world around it. If an administrator, they will throw efficiency to the wind and extract every last bit of resouce they can at the expence of any life. If a captain, you can expect that ship to fly headfirst brawling anything insight.",,,,
 ,,,,,,
 #Planets,,,,,,
 Hel,CUSTOM,A planet that breathes threat fragments. Clearly this planet is in the middle of being devoured for every last bit of material.,,"Seen from close orbit, the ragged biosphere of Valjean looks even mangier than the orbital photos on file. For all that Valjean once held enormous promise of easy wealth and bountiful harvests, itÕs a planet with no future. Now, the only thing Valjean exports regularly is people - as engine wipers, hired guns, and refugees; no job is too dirty in exchange for guaranteed passage offworld.",,

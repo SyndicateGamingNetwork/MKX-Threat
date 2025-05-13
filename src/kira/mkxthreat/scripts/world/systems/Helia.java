@@ -3,6 +3,8 @@ package kira.mkxthreat.scripts.world.systems;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
+import com.fs.starfarer.api.characters.FullName;
+import com.fs.starfarer.api.characters.PersonAPI;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.intel.deciv.DecivTracker;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
@@ -10,12 +12,16 @@ import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceAbyssPluginImpl;
 import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.util.Misc;
 import kira.mkxthreat.campaign.econ.MkxthreatHabitatCondition;
+import kira.mkxthreat.campaign.econ.impl.MkxthreatItems;
 import kira.mkxthreat.campaign.econ.industries.MkxIndustries;
 import kira.mkxthreat.campaign.submarkets.Mkxthreathab;
+import kira.mkxthreat.ids.MkxthreatStrings;
 
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
+
+import static com.fs.starfarer.api.impl.campaign.ids.Ranks.FACTION_LEADER;
 
 public class Helia {
             //Needed to get the star to not show on the map//
@@ -60,7 +66,6 @@ public class Helia {
     }
             //Needed to get the star to not show on the map//
 
-
     public void generate(SectorAPI sector) {
 
         StarSystemAPI system = sector.createStarSystem("Helia");
@@ -80,12 +85,13 @@ public class Helia {
         system.autogenerateHyperspaceJumpPoints(true, true); //generates jump points
         setAbyssalDetectedRanges(system); //sets the system to only be detected when close//
 
+        system.setHyperspaceAnchor(helia);
         SectorEntityToken mkxthreatSensorArray = system.addCustomEntity("mkxthreat_sensor", "Domain Sensor Array", "sensor_array", "mkxthreat");
         SectorEntityToken mkxthreatNavArray = system.addCustomEntity("mkxthreat_nav", "Domain Navigation Array", "nav_buoy", "mkxthreat");
         SectorEntityToken mkxthreatRelay = system.addCustomEntity("mkxthreat_relay", "Domain Communication Array", "comm_relay", "mkxthreat");
 
-        mkxthreatSensorArray.setCircularOrbitPointingDown(helia, 240.0F, 13000.0F, 260.0F);
-        mkxthreatNavArray.setCircularOrbitPointingDown(helia, 240.0F, 8500.0F, 200.0F);
+        mkxthreatSensorArray.setCircularOrbitPointingDown(helia, 240.0F, 3400.0F, 260.0F);
+        mkxthreatNavArray.setCircularOrbitPointingDown(helia, 240.0F, 3000.0F, 200.0F);
         mkxthreatRelay.setCircularOrbitPointingDown(helia, 185.0F, 2800.0F, 100.0F);
 
         HyperspaceTerrainPlugin plugin = (HyperspaceTerrainPlugin) Misc.getHyperspaceTerrain().getPlugin(); //these lines clear the hyperspace clouds around the system
@@ -115,28 +121,60 @@ public class Helia {
                         Conditions.VOLATILES_PLENTIFUL,
                         Conditions.POPULATION_8,
                         Conditions.STEALTH_MINEFIELDS,
-                        MkxthreatHabitatCondition.MKXTHREATHABITATCONDITION
+                        MkxthreatHabitatCondition.MKXTHREATHABITATCONDITION,
+                        Conditions.AI_CORE_ADMIN
                 )),
 
                 new ArrayList<>(Arrays.asList( //industries
                         MkxIndustries.MKXTHREATFRAGMENTCORE,
                         Industries.MEGAPORT,
-                        Industries.HEAVYBATTERIES,
                         Industries.WAYSTATION,
                         MkxIndustries.MKXTHREATPLANETARYSHIELD,
                         MkxIndustries.MKXTHREATMINING,
                         MkxIndustries.MKXTHREATMILITARYBASE,
-                        MkxIndustries.FRAGMENTSTATION
+                        MkxIndustries.MKXFRAGMENTSTATION,
+                        MkxIndustries.MKXHEAVYBATTERIES
                 )),
 
-                new ArrayList<>(Arrays.asList(Submarkets.SUBMARKET_STORAGE, //markets
-                        Submarkets.GENERIC_MILITARY,
+                new ArrayList<>(Arrays.asList( //markets
+                        Submarkets.SUBMARKET_STORAGE,
                         Submarkets.SUBMARKET_OPEN,
-                        Mkxthreathab.MKXTHREATHAB
+                        Mkxthreathab.MKXTHREATHAB,
+                        Submarkets.GENERIC_MILITARY
                 )),
+
                 0.15f
+
         );
-        helmarket.addIndustry("fragmentworks", new ArrayList(Arrays.asList("mkxthreatfragmenthub")));
+
+        PersonAPI x_mk = Global.getFactory().createPerson();
+        x_mk.setFaction(MkxthreatStrings.MKXTHREAT);
+        x_mk.setGender(FullName.Gender.ANY);
+        x_mk.setRankId(Ranks.FACTION_LEADER);
+        x_mk.setPostId(Ranks.POST_FACTION_LEADER);
+        x_mk.setImportance(PersonImportance.VERY_HIGH);
+        x_mk.getName().setFirst("X");
+        x_mk.getName().setLast("MK");
+        x_mk.setPortraitSprite(Global.getSettings().getSpriteName("characters", "X_MK"));
+        x_mk.getStats().setSkillLevel(Skills.SPACE_OPERATIONS, 3);
+        x_mk.getStats().setSkillLevel(Skills.PLANETARY_OPERATIONS, 3);
+        x_mk.getStats().setSkillLevel(Skills.INDUSTRIAL_PLANNING, 3);
+        x_mk.getStats().setSkillLevel(Skills.HELMSMANSHIP, 3);
+        x_mk.getStats().setSkillLevel(Skills.TARGET_ANALYSIS, 3);
+        x_mk.getStats().setSkillLevel(Skills.SHIELD_MODULATION, 3);
+        x_mk.getStats().setSkillLevel(Skills.MISSILE_SPECIALIZATION, 3);
+        x_mk.getStats().setSkillLevel(Skills.SYSTEMS_EXPERTISE, 3);
+        x_mk.getStats().setSkillLevel(Skills.ENERGY_WEAPON_MASTERY, 2);
+        x_mk.getStats().setSkillLevel(Skills.GUNNERY_IMPLANTS, 3);
+        x_mk.getStats().setSkillLevel(Skills.HYPERCOGNITION, 3);
+        x_mk.getStats().setLevel(15);
+        x_mk.setPersonality(Personalities.RECKLESS);
+
+        helmarket.getCommDirectory().addPerson(x_mk);
+        helmarket.getCommDirectory().getEntryForPerson(x_mk).setHidden(false);
+        helmarket.addPerson(x_mk);
+        helmarket.setAdmin(x_mk);
+        helmarket.addIndustry("mkxfragmentworks", new ArrayList(Arrays.asList("mkxthreatfragmenthub")));
         helmarket.getMemoryWithoutUpdate().set(DecivTracker.NO_DECIV_KEY, true);
     }
 }

@@ -18,6 +18,7 @@ public class MkxthreatItems {
     public static String MKXTHREATFRAGMENTHUB = "mkxthreatfragmenthub";
     public static float PRISTINE_NANOFORGE_QUALITY_BONUS = 0.5f;
     public static int PRISTINE_NANOFORGE_PROD = 4;
+
     public void putInfoForSpecialItems() {
         ItemEffectsRepo.ITEM_EFFECTS.put("mkxthreatfragmenthub", new BoostIndustryInstallableItemEffect(
                 "mkxthreatfragmenthub", 3, 2) {
@@ -45,8 +46,6 @@ public class MkxthreatItems {
                         "" + (int) PRISTINE_NANOFORGE_PROD);
             }
         });
-
-
 
     }
     public void setSpecialItemNewIndustries(String specialItemID, String listOfAdditionalIndustries) {

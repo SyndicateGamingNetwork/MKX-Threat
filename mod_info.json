@@ -3,7 +3,7 @@
   "name": "MKX Threat",
   "author": "Kira Inata",
   "utility": false,
-  "version": { "major": "0", "minor": "1", "patch": "0" },
+  "version": { "major": "0", "minor": "3", "patch": "0" },
   "description": "MKX threat.",
   "gameVersion": "0.98",
   "jars": [ "jars/mkxthreat.jar" ],

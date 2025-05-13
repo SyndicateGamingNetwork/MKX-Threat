@@ -9,6 +9,9 @@
 	],
 
 	"graphics": {
+		"characters": {
+			"X_MK": "graphics/portraits/characters/X_MK.png"
+		},
 		"blueprint_packages":{
 			"mkxthreat_package":"graphics/icons/cargo/package_mkxthreat.png",
 			"mkxthreat_blueprint":"graphics/icons/cargo/blueprint_mkxthreat.png"

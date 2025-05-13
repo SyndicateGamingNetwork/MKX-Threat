@@ -11,6 +11,29 @@
     "rebelFleetSuffix":"DEFABRICATE",
     "directoryUseShortName":true,
     "hostileToAll":3,
+    "noRandomizeRelations":true,
+    "allowAgentActions":false,
+    "noSyncRelations":true,
+    "pirateFaction":true,
+    "spawnPatrols":true,
+    "allowPrisonerActions":false,
+    "freeMarket":false,
+    "morality":"evil",
+    "diplomacyTraits":["foreverwar", "temperamental", "envious", "monstrous"],
+    "isPirateNeutral":false,
+    "specialForcesMaxFleets":0,
+    "vengeanceLevelNames":["Retaliation", "Purge", "Obliteration"],
+    "vengeanceFleetNames":["Retaliation", "Purge", "Obliteration"],
+    "vengeanceFleetNamesSingle":["a Retaliation Fleet", "a Purge Force", "an Obliteration Force"],
+
+    "alignments":{
+        "corporate":-1,
+        "technocratic":1,
+        "militarist":1,
+        "diplomatic":-1,
+        "ideological":-1
+    },
+
     "startRelationships":{
         "independent":-1.00,
         "player":-1.00,
@@ -54,26 +77,7 @@
         "uaf":-1.00,
         "default": -1.00
     },
-    "allowAgentActions":true,
-    "allowPrisonerActions":true,
-	"freeMarket":true,
-    "morality":"evil",
-    "diplomacyTraits":["foreverwar", "temperamental", "envious", "monstrous"],
-    "alignments":{
-            "corporate":-1,
-            "technocratic":1,
-            "militarist":1,
-            "diplomatic":-1,
-            "ideological":-1
-    },
-    "isPirateNeutral":false,
-    "specialForcesMaxFleets":0,
-    "vengeanceLevelNames":["Retaliation", "Purge", "Obliteration"],
 
-    "vengeanceFleetNames":["Retaliation", "Purge", "Obliteration"],
-
-    "vengeanceFleetNamesSingle":["a Retaliation Fleet", "a Purge Force", "an Obliteration Force"],
-    
     "startShipsCombatLarge":[
         ["mkx_fabricator_unit_type450", "mkx_shephard_unit_type110", "mkx_wulf_unit_type120", "mkx_skipper_unit_type10"]
     ],

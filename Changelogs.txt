@@ -1,3 +1,15 @@
+[Mkx Threat Version 0.3.0] 05/13/2025
+==============================
+- MAYBE, MAYBE NOT SAVE COMPATABLE
+- Added more code to ensure everyone stays angry at the MKX (hopefully, cause if not im really unsure what else to do to get nex to behave)
+- Added weapons to the hab
+- Readded the open market for now till I set up a better closed market (no sneaking in and buying things while hostile ;) )
+- "Replaced" Heavy batteries with a threat version
+- Altered positions of entities within the Helia system
+- Changed the amount of fleets spawned in the Helia system
+- Made some other additions in my fever dream
+==============================
+
 [Mkx Threat Version 0.2.0] 05/09/2025
 ==============================
 - NOT SAVE COMPATABLE

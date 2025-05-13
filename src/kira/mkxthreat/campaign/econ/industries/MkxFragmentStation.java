@@ -36,7 +36,7 @@ public class MkxFragmentStation extends BaseIndustry implements FleetEventListen
         super.apply(false);
 
 
-        boolean works = MkxIndustries.FRAGMENTSTATION.equals(getId());
+        boolean works = MkxIndustries.MKXFRAGMENTSTATION.equals(getId());
 
         int size = 7;
         modifyStabilityWithBaseMod();
@@ -131,7 +131,7 @@ public class MkxFragmentStation extends BaseIndustry implements FleetEventListen
     @Override
     protected void addPostDemandSection(TooltipMakerAPI tooltip, boolean hasDemand, IndustryTooltipMode mode) {
         if (mode != IndustryTooltipMode.NORMAL || isFunctional()) {
-            boolean works = MkxIndustries.FRAGMENTWORKS.equals(getId());
+            boolean works = MkxIndustries.MKXFRAGMENTWORKS.equals(getId());
             Color h = Misc.getHighlightColor();
             float opad = 10f;
 

@@ -174,9 +174,9 @@ public class MkxthreatMilitaryBase extends BaseIndustry implements RouteManager.
             int medium = getCount(FleetFactory.PatrolType.COMBAT);
             int heavy = getCount(FleetFactory.PatrolType.HEAVY);
 
-            int maxLight = 2;
-            int maxMedium = 2;
-            int maxHeavy = 3;
+            int maxLight = 30;
+            int maxMedium = 30;
+            int maxHeavy = 30;
 
             WeightedRandomPicker<FleetFactory.PatrolType> picker = new WeightedRandomPicker<FleetFactory.PatrolType>();
             picker.add(FleetFactory.PatrolType.HEAVY, maxHeavy - heavy);

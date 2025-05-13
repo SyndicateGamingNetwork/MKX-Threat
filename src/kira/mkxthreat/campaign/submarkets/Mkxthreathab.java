@@ -45,8 +45,11 @@ public class Mkxthreathab extends OpenMarketPlugin {
             }
 
             getCargo().getMothballedShips().clear();
-
             CommodityOnMarketAPI com;
+
+            int weapons = 6 + Math.max(0, market.getSize() - 1) + (military ? 5 : 0);
+
+            addWeapons(weapons, weapons + 2, 5, "mkxthreat");
 
             float freighters = 10f;
             com = market.getCommodityData(Commodities.SHIPS);
@@ -64,15 +67,18 @@ public class Mkxthreathab extends OpenMarketPlugin {
             addShips(market.getFactionId(),
                     0f, 0f, tankers, 0, 0f, 0f, null, 0f, FactionAPI.ShipPickMode.PRIORITY_THEN_ALL, null);
         }
+
         cargo.addCommodity("alpha_core", MathUtils.getRandomNumberInRange(0, 2)); //Adds anything from commodities
         cargo.addCommodity("beta_core", MathUtils.getRandomNumberInRange(2, 3));
         cargo.addCommodity("gamma_core", MathUtils.getRandomNumberInRange(3, 5));
+//        cargo.addCommodity("threat_core", MathUtils.getRandomNumberInRange(1, 3));
         cargo.addHullmods("fragment_swarm", 1); //Adds hullmods to a market
         cargo.addHullmods("secondary_fabricator", 1);
         cargo.addHullmods("fragment_coordinator", 1);
         cargo.addSpecial(new SpecialItemData(Items.FRAGMENT_FABRICATOR, null), MathUtils.getRandomNumberInRange(1, 4)); //Adds special items to a market
         cargo.addSpecial(new SpecialItemData(Items.THREAT_PROCESSING_UNIT, null), MathUtils.getRandomNumberInRange(1, 4));
         getCargo().sort();
+
     }
 
     public boolean isEnabled(CoreUIAPI ui) {

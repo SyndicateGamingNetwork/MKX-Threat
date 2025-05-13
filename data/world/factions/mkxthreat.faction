@@ -22,10 +22,10 @@
     "shipNamePrefix":"MKX",
 	"showInIntelTab":true,
 	"shipNameSources":{
-		"THREAT":1
+		"threat":1
 	},
 	"names":{
-		"ai":1
+		"threat":1
 	},
 
 	"portraits":{

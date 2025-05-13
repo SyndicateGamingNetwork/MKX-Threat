@@ -26,7 +26,7 @@ public class MkxFragmentWorks extends BaseIndustry {
 
         int size = market.getSize();
 
-        boolean works = MkxIndustries.FRAGMENTWORKS.equals(getId());
+        boolean works = MkxIndustries.MKXFRAGMENTWORKS.equals(getId());
         int shipBonus = 0;
         float qualityBonus = 0;
         if (works) {
@@ -83,7 +83,7 @@ public class MkxFragmentWorks extends BaseIndustry {
     @Override
     protected void addPostDemandSection(TooltipMakerAPI tooltip, boolean hasDemand, IndustryTooltipMode mode) {
         if (mode != IndustryTooltipMode.NORMAL || isFunctional()) {
-            boolean works = MkxIndustries.FRAGMENTWORKS.equals(getId());
+            boolean works = MkxIndustries.MKXFRAGMENTWORKS.equals(getId());
             if (works) {
                 float total = FRAGMENT_WORKS_QUALITY_BONUS;
                 String totalStr = "+" + (int)Math.round(total * 100f) + "%";
@@ -118,8 +118,8 @@ public class MkxFragmentWorks extends BaseIndustry {
     @Override
     public boolean wantsToUseSpecialItem(SpecialItemData data) {
         if (special != null && Items.CORRUPTED_NANOFORGE.equals(special.getId()) &&
-                data != null && Items.PRISTINE_NANOFORGE.equals(data.getId()) &&
-                data != null && MkxthreatItems.MKXTHREATFRAGMENTHUB.equals(data.getId())
+                data != null && Items.PRISTINE_NANOFORGE.equals(special.getId()) &&
+                data != null && MkxthreatItems.MKXTHREATFRAGMENTHUB.equals(special.getId())
         ) {
             return true;
         }
