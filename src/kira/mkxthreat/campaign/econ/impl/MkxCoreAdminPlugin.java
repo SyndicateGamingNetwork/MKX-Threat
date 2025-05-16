@@ -8,12 +8,14 @@ import com.fs.starfarer.api.impl.campaign.AICoreAdminPluginImpl;
 import com.fs.starfarer.api.impl.campaign.ids.Ranks;
 import com.fs.starfarer.api.impl.campaign.ids.Skills;
 
+import static kira.mkxthreat.ids.MkxthreatStrings.THREAT_CORE;
+
 public class MkxCoreAdminPlugin extends AICoreAdminPluginImpl implements AICoreAdminPlugin {
 
     public PersonAPI createPerson(String aiCoreId, String factionId, long seed) {
         PersonAPI person = Global.getFactory().createPerson();
         person.setFaction(factionId);
-        person.setAICoreId(aiCoreId);
+        person.setAICoreId(THREAT_CORE);
         person.setName(new FullName("X", "MK", FullName.Gender.ANY));
         person.setPortraitSprite("graphics/portraits/volcore.png");
         person.setRankId((String)null);

@@ -1,10 +1,13 @@
 {
     "displayName": "Type 350",
-    "fluxCapacitors": 30,
+    "fluxCapacitors": 18,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "mkx_hive_unit",
-    "hullMods": [],
+    "hullMods": [
+        "reinforcedhull",
+        "surveying_equipment"
+    ],
     "variantId": "mkx_hive_unit_type350",
     "weaponGroups": [
         {

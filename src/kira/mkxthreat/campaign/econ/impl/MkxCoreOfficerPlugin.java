@@ -23,27 +23,23 @@ public class MkxCoreOfficerPlugin extends BaseAICoreOfficerPluginImpl {
         PersonAPI person = Global.getFactory().createPerson();
         person.setFaction(factionId);
         person.setAICoreId(aiCoreId);
-
-        CommoditySpecAPI spec = Global.getSettings().getCommoditySpec(aiCoreId);
-        boolean jdp_omega = MkxthreatStrings.THREAT_CORE.equals(aiCoreId);
-
+        person.setName(new FullName("X", "MK", FullName.Gender.ANY));
+        person.setPortraitSprite("graphics/portraits/characters/X_MK.png");
+        person.getStats().setLevel(8);
+        person.getStats().setSkillLevel(Skills.HELMSMANSHIP, 2);
+        person.getStats().setSkillLevel(Skills.TARGET_ANALYSIS, 2);
+        person.getStats().setSkillLevel(Skills.IMPACT_MITIGATION, 2);
+        person.getStats().setSkillLevel(Skills.FIELD_MODULATION, 2);
+        person.getStats().setSkillLevel(Skills.GUNNERY_IMPLANTS, 2);
+        person.getStats().setSkillLevel(Skills.COMBAT_ENDURANCE, 2);
+        person.getStats().setSkillLevel(Skills.DAMAGE_CONTROL, 2);
+        person.getStats().setSkillLevel(Skills.POINT_DEFENSE, 2);
+        person.setPersonality(Personalities.RECKLESS);
+        person.setRankId(Ranks.SPACE_CAPTAIN);
         person.getStats().setSkipRefresh(true);
 
-        person.setName(new FullName("X", "MK", FullName.Gender.ANY));
         int points = 0;
         float mult = 1f;
-        if (jdp_omega) {
-            person.setPortraitSprite("graphics/portraits/characters/X_MK.png");
-            person.getStats().setLevel(9);
-            person.getStats().setSkillLevel(Skills.HELMSMANSHIP, 2);
-            person.getStats().setSkillLevel(Skills.TARGET_ANALYSIS, 2);
-            person.getStats().setSkillLevel(Skills.IMPACT_MITIGATION, 2);
-            person.getStats().setSkillLevel(Skills.FIELD_MODULATION, 2);
-            person.getStats().setSkillLevel(Skills.GUNNERY_IMPLANTS, 2);
-            person.getStats().setSkillLevel(Skills.COMBAT_ENDURANCE, 2);
-            person.getStats().setSkillLevel(Skills.DAMAGE_CONTROL, 2);
-            person.getStats().setSkillLevel(Skills.POINT_DEFENSE, 2);
-        }
 
         points = MKX_CORE_POINTS;
         mult = MKX_CORE_MULT;
@@ -53,8 +49,7 @@ public class MkxCoreOfficerPlugin extends BaseAICoreOfficerPluginImpl {
         }
         person.getMemoryWithoutUpdate().set(AUTOMATED_POINTS_MULT, mult);
 
-        person.setPersonality(Personalities.RECKLESS);
-        person.setRankId(Ranks.SPACE_CAPTAIN);
+
 
         person.setPostId(null);
 

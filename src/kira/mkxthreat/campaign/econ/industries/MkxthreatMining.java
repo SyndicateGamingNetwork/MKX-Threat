@@ -3,6 +3,7 @@ package kira.mkxthreat.campaign.econ.industries;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.PlanetAPI;
 import com.fs.starfarer.api.campaign.SpecialItemData;
+import com.fs.starfarer.api.campaign.econ.CommoditySpecAPI;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.campaign.econ.MarketConditionAPI;
 import com.fs.starfarer.api.campaign.econ.MarketImmigrationModifier;
@@ -14,10 +15,14 @@ import com.fs.starfarer.api.impl.campaign.population.PopulationComposition;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
 import com.fs.starfarer.api.util.Pair;
+import exerelin.utilities.StringHelper;
+import kira.mkxthreat.ids.MkxthreatStrings;
 
 import java.awt.*;
+import java.util.HashMap;
+import java.util.Map;
 
-    public class MkxthreatMining extends BaseIndustry implements MarketImmigrationModifier{
+public class MkxthreatMining extends BaseIndustry implements MarketImmigrationModifier{
 
         public void apply() {
             super.apply(true);
@@ -118,8 +123,6 @@ import java.awt.*;
             return true;
         }
 
-
-
         public void applyVisuals(PlanetAPI planet) {
             if (planet == null) return;
             planet.getSpec().setShieldTexture2(Global.getSettings().getSpriteName("industry", "plasma_net_texture"));
@@ -153,7 +156,5 @@ import java.awt.*;
                 applyVisuals(market.getPlanetEntity());
             }
         }
-
-
 
     }

@@ -1,7 +1,7 @@
 {
     "displayName": "Type 201",
-    "fluxCapacitors": 10,
-    "fluxVents": 20,
+    "fluxCapacitors": 0,
+    "fluxVents": 12,
     "goalVariant": true,
     "hullId": "mkx_assault_unit",
     "hullMods": [],

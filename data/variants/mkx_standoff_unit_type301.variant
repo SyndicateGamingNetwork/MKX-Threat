@@ -1,6 +1,6 @@
 {
     "displayName": "Type 301",
-    "fluxCapacitors": 30,
+    "fluxCapacitors": 24,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "mkx_standoff_unit",

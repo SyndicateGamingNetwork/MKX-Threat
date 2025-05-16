@@ -1,3 +1,13 @@
+[Mkx Threat Version 0.4.0] 05/16/2025
+==============================
+- Altered ship spawn rates and much more with individual ships for slightly more balance... maybe.
+- Added "Harrier Unit".
+- Re-done nexerelin custom fleets with the new ships and added more types of fleet starts.
+- Added "Mass Flak Driver".
+- Added MKX Threat Officers and Admins.
+- Removed all other cores from spawning in MKX and added a threat specific proccessing unit that acts as an ai core.
+==============================
+
 [Mkx Threat Version 0.3.0] 05/13/2025
 ==============================
 - MAYBE, MAYBE NOT SAVE COMPATABLE

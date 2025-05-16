@@ -4,7 +4,10 @@
     "fluxVents": 10,
     "goalVariant": true,
     "hullId": "mkx_skirmish_unit",
-    "hullMods": [],
+    "hullMods": [
+        "reinforcedhull",
+        "ecm"
+    ],
     "variantId": "mkx_skirmish_unit_type100",
     "weaponGroups": [
         {

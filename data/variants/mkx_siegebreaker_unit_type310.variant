@@ -1,7 +1,7 @@
 {
     "displayName": "Type 310",
-    "fluxCapacitors": 0,
-    "fluxVents": 7,
+    "fluxCapacitors": 17,
+    "fluxVents": 30,
     "goalVariant": true,
     "hullId": "mkx_siegebreaker_unit",
     "hullMods": [],

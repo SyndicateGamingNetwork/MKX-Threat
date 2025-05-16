@@ -1,0 +1,169 @@
+{
+    "hullName": "MKX Harrier Unit",
+    "hullId": "mkx_harrier_unit",
+    "hullSize": "DESTROYER",
+    "style": "THREAT",
+    "spriteName": "graphics/ships/mkx_harrier.png",
+    "height": 105,
+    "width": 104,
+    "center": [
+        52, 49
+    ],
+    "collisionRadius": 63.5,
+    "coversColor": "",
+    "shieldCenter": [
+        -3, 0
+    ],
+    "shieldRadius": 77,
+    "viewOffset": 0,
+    "builtInMods": [
+        "threat_hullmod",
+        "fragment_swarm",
+        "automated",
+        "escort_package",
+        "ground_support"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      44,       22
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      44,      -22
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    42.5,        0
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                      11,        0
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 258,
+            "angle": 180,
+            "locations": [
+                     -21,        0
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -50.5, -13
+            ],
+            "length": 25.5,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -50.5, 13
+            ],
+            "length": 25.5,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -47, -44
+            ],
+            "length": 15,
+            "width": 13,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -47, 44
+            ],
+            "length": 15,
+            "width": 13,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -52, -29.5
+            ],
+            "length": 19,
+            "width": 11,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        },
+        {
+            "location": [
+                -52, 29.5
+            ],
+            "length": 19,
+            "width": 11,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "THREAT"
+        }
+    ],
+    "bounds": [
+           -36.5,       -3,
+           -48.5,      -12,
+           -46.5,      -45,
+             -29,    -47.5,
+            18.5,    -31.5,
+        
+            47.5,    -28.5,
+              48,      -17,
+              56,       -5,
+              56,        5,
+              48,       17,
+        
+            47.5,     28.5,
+            18.5,     31.5,
+             -29,     47.5,
+           -46.5,       45,
+           -48.5,       12,
+        
+           -36.5,        3
+    # 16 points total.
+    ]
+}

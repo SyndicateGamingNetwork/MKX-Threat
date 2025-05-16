@@ -1,11 +1,13 @@
 {
     "displayName": "Type 240",
-    "fluxCapacitors": 0,
-    "fluxVents": 1,
+    "fluxCapacitors": 6,
+    "fluxVents": 20,
     "goalVariant": true,
     "hullId": "mkx_hammurhead_unit",
     "hullMods": [
-        "safetyoverrides"
+        "safetyoverrides",
+        "reinforcedhull",
+        "unstable_injector"
     ],
     "quality": 0.0,
     "variantId": "mkx_hammurhead_unit_type240",

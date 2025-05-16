@@ -4,7 +4,10 @@
     "fluxVents": 10,
     "goalVariant": true,
     "hullId": "mkx_skirmish_unit",
-    "hullMods": [],
+    "hullMods": [
+        "reinforcedhull",
+        "eccm"
+    ],
     "variantId": "mkx_skirmish_unit_type101",
     "weaponGroups": [
         {
@@ -18,15 +21,15 @@
             "autofire": false,
             "mode": "LINKED",
             "weapons": {
-                "WS 001": "voltaic_cannon",
-                "WS 002": "voltaic_cannon"
+                "WS 001": "voltaic_discharge",
+                "WS 002": "voltaic_discharge"
             }
         },
         {
             "autofire": false,
             "mode": "LINKED",
             "weapons": {
-                "WS 000": "neutron_torpedo"
+                "WS 000": "voltaic_discharge"
             }
         }
     ]
