@@ -8,18 +8,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="starfarer.api" level="project" />
-    <orderEntry type="library" name="bananaFactory" level="project" />
-    <orderEntry type="library" name="bananaLib" level="project" />
-    <orderEntry type="library" name="baNanoforge" level="project" />
     <orderEntry type="library" exported="" name="LazyLib" level="project" />
     <orderEntry type="library" exported="" name="LunaLib" level="project" />
     <orderEntry type="library" exported="" name="MagicLib" level="project" />
-    <orderEntry type="library" name="ParticleEngine" level="project" />
     <orderEntry type="library" name="RetroLib" level="project" />
-    <orderEntry type="library" name="sidebarLib" level="project" />
-    <orderEntry type="library" name="VariantsLib" level="project" />
-    <orderEntry type="library" name="BoxUtilMod" level="project" />
-    <orderEntry type="library" exported="" name="Graphics" level="project" />
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
@@ -32,7 +24,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" exported="" name="ExerelinCore" level="project" />
-    <orderEntry type="library" exported="" name="crew_replacer" level="project" />
-    <orderEntry type="library" exported="" name="marketRetrofit" level="project" />
+    <orderEntry type="library" name="Graphics" level="project" />
+    <orderEntry type="library" name="ashlib" level="project" />
   </component>
 </module>
