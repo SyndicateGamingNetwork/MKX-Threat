@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="sidebarLib">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../sidebarLib-20250416/jars/sidebarLib.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

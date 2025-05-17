@@ -1,10 +1,10 @@
 {
-  "masterVersionFile": "https://github.com/SyndicateGamingNetwork/MKX-Threat/blob/10cfb70def0609bbf7758f5ced3ec38137e58b89/kira_mkxthreat.version",
+  "masterVersionFile": "https://github.com/SyndicateGamingNetwork/MKX-Threat/blob/main/kira_mkxthreat.version",
 
   "modName": "MKX Threat",
 
   "modVersion":
-    {"major": 0, "minor": 3, "patch": 0},
+    {"major": 0, "minor": 4, "patch": 1},
 
   "changelogURL": "https://github.com/SyndicateGamingNetwork/MKX-Threat/blob/main/Changelogs.txt",
 }
