@@ -8,6 +8,7 @@ import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.submarkets.OpenMarketPlugin;
 import com.fs.starfarer.api.util.Misc;
+import kira.mkxthreat.campaign.econ.impl.MkxthreatItems;
 import org.lazywizard.lazylib.MathUtils;
 
 import java.util.Random;
@@ -77,6 +78,7 @@ public class Mkxthreathab extends OpenMarketPlugin {
         cargo.addHullmods("fragment_coordinator", 1);
         cargo.addSpecial(new SpecialItemData(Items.FRAGMENT_FABRICATOR, null), MathUtils.getRandomNumberInRange(1, 4)); //Adds special items to a market
         cargo.addSpecial(new SpecialItemData(Items.THREAT_PROCESSING_UNIT, null), MathUtils.getRandomNumberInRange(1, 4));
+        cargo.addSpecial(new SpecialItemData(MkxthreatItems.MKXTHREATFRAGMENTHUB, null), MathUtils.getRandomNumberInRange(1, 4));
         getCargo().sort();
     }
 

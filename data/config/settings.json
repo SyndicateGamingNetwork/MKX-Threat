@@ -30,6 +30,9 @@
 			"mkxthreat_nebula_threat_glow":"graphics/terrain/mkxthreat_nebula_threat_glow.png",
 			"mkxthreat_nebula_threat_map":"graphics/terrain/mkxthreat_nebula_threat_map.png"
 		},
+		"misc": {
+			"rings_threat0":"graphics/planets/rings_threat0.png"
+		},
 		"clouds": {
 			"helia": "graphics/planets/threat_cloud.png",
 			"hel": "graphics/planets/threat_cloud.png"

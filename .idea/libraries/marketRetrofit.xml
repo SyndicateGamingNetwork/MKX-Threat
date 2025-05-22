@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="marketRetrofit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../MarketRetrofits-master/jars/marketRetrofit.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

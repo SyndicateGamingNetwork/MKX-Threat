@@ -26,5 +26,7 @@
     <orderEntry type="library" exported="" name="ExerelinCore" level="project" />
     <orderEntry type="library" name="Graphics" level="project" />
     <orderEntry type="library" name="ashlib" level="project" />
+    <orderEntry type="library" name="crew_replacer" level="project" />
+    <orderEntry type="library" name="marketRetrofit" level="project" />
   </component>
 </module>

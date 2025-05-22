@@ -111,4 +111,7 @@ public class MkxthreatStrings {
         public static final String MKXTHREAT = "mkxthreat";
         public static final String MKXTHREATHAB = "mkxthreathab";
         public static final String THREAT_CORE = "mkxthreatcore";
+        public static final String THREAT_STATION = "mkxthreat_station";
+        public static final String FRAGMENT_STORM = "fragment_storm";
+        public static final String HELIA = "helia";
     }

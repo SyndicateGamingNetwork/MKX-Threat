@@ -2,7 +2,6 @@ package kira.mkxthreat;
 
 import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import exerelin.campaign.SectorManager;
 import kira.mkxthreat.campaign.econ.impl.MkxCampaignPluginImpl;
 import kira.mkxthreat.campaign.econ.impl.MkxthreatItems;
@@ -22,6 +21,7 @@ public class MkxthreatModPlugin extends BaseModPlugin {
             new MkxthreatGen().generate(Global.getSector());
         }
     }
+
     @Override
     public void onGameLoad(boolean newGame){
         super.onGameLoad(newGame);

@@ -30,6 +30,8 @@ mkx_boffalo_unit,SHIP,"Closest match found to archive entry for ""Buffalo""-clas
 // datastream resetting… This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
 mkx_hammurhead_unit,SHIP,"Closest match found to archive entry for ""Hammerhead""-class destroyer, 53.42% confidence. Querying database... DOMAIN INFOSEC VIOLATION THRESHOLD WARNING ALERT
 // datastream resetting… This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
+mkx_harrier_unit,SHIP,"Closest match found to archive entry for [[ERROR]] . Querying database... DOMAIN INFOSEC VIOLATION THRESHOLD WARNING ALERT
+// datastream resetting… This TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",,,,
 ,,,,,,
 mkx_hive_unit,SHIP,"IDENTIFICATION ERROR: Target matches no known class of ship in the Domain registry or historical reference. Submit data for temporary entry? Processing. ERROR // DOMAIN INFOSEC VIOLATION THRESHOLD WARNING
 // retry?

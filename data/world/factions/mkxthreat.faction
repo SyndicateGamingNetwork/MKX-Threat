@@ -20,7 +20,7 @@
 	"internalComms":"mkxthreat_public",
 	
     "shipNamePrefix":"MKX",
-	"showInIntelTab":true,
+	"showInIntelTab":false,
 	"shipNameSources":{
 		"threat":1
 	},
